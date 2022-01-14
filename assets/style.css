@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightsteelblue;
 }
-
+/* START NAVIGATION/HEADER STYLING */
 .nav-container {
     background-color: #101010;
     display: flex;
@@ -21,6 +21,7 @@ body {
     color: #101010;
     margin: -2px;
     font-size: 36px;
+    
 }
 
 .logo-box {
@@ -50,7 +51,9 @@ li a {
 span {
     border-bottom: lightsteelblue solid 3px;
 }
+/* END STYLING FOR NAV/HEADER */
 
+/* HERO STYLING */
 .hero {
     height: 400px;
     width: 100%;
@@ -75,7 +78,10 @@ span {
     margin-right: 20px;
     color: darkslateblue;
 }
+/* END HERO STYLING */
 
+
+/* ABOUT ME STYLING */
 .about-container {
     display: flex;
     /* width: 100%; */
@@ -102,6 +108,32 @@ span {
     font-weight: bold;
 
 }
+/* END ABOUT ME STYLING */
+
+/* START WORK STYLING */
+
+.work-container{
+    display: flex;
+    align-items: center;
+    margin: 0 250px;
+    height: 200px;
+}
+
+.work-header {
+    display: flex;
+    /* width: 100%; */
+    margin: 30px 250px;
+    height: 200px;
+    font-size: 60px;
+    color: darkslateblue;
+    font-weight: bolder;
+    border-right: darkslateblue solid 3px;
+
+}
+
+
+
+
 
 
 
