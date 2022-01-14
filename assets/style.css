@@ -2,32 +2,105 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 body {
-    color: darkgrey;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: lightsteelblue;
 }
 
-section {
-    color: black;
-}
-
-header {
-    padding: 20px 35px;
-    background-color: darkslateblue;
+.nav-container {
+    background-color: #101010;
     display: flex;
-    flex-wrap: wrap;
-
+    padding: 40px;
+    justify-content: space-between;
 }
 
-header h1 {
-    color: darkturquoise;
+.nav-container h1 {
+    color: #101010;
+    margin: -2px;
+    font-size: 36px;
 }
 
-nav{
+.logo-box {
+    border: lightsteelblue solid 3px;
+    padding-left: 70px;
+    background-color: lightsteelblue;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
     font-size: 20px;
+    text-decoration: none;
 }
-li {
-    display: inline-block;
+
+li a {
+    padding: 20px;
+    text-decoration: none;
+    color: lightsteelblue;
 }
+
+span {
+    border-bottom: lightsteelblue solid 3px;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/resume_headings.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.hero-text {
+    border: lightsteelblue solid 10px;
+    float: right;
+    font-size: 32px;
+    background-color: lightsteelblue;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.about-container {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    margin: 0 50px;
+    height: 200px;
+}
+
+.about-item {
+    padding: 16px;
+    font-size: 60px;
+    margin-right: 30px;
+    border-right: darkslateblue solid 3px;
+    
+    
+}
+
+.about-item-2{
+    padding: 16px;
+
+}
+
+
+
+
+
+
+
+
