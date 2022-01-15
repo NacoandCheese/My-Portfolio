@@ -119,16 +119,21 @@ span {
     height: 200px;
 }
 
-.work-header {
-    display: flex;
-    /* width: 100%; */
-    margin: 30px 250px;
+.work-item h1 {
+   flex-direction: row;
+    width: 100%;
+    /* margin: 30px 250px; */
     height: 200px;
+    margin-top: 40px;
     font-size: 60px;
     color: darkslateblue;
     font-weight: bolder;
-    border-right: darkslateblue solid 3px;
+    border-right: darkslateblue;
 
+}
+
+.work-item {
+    flex-direction: column;
 }
 
 
