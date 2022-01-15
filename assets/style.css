@@ -9,6 +9,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightsteelblue;
 }
+
+section {
+    padding: 60px;
+}
+
+.flex-row {
+    display: flex;
+}
 /* START NAVIGATION/HEADER STYLING */
 .nav-container {
     background-color: #101010;
@@ -85,12 +93,12 @@ span {
 .about-container {
     display: flex;
     /* width: 100%; */
-    align-items: center;
+    /* align-items: center; */
     margin: 0 250px;
     height: 200px;
 }
 
-.about-item {
+.section-title {
     padding: 16px;
     font-size: 60px;
     margin-right: 30px;
@@ -119,22 +127,7 @@ span {
     height: 200px;
 }
 
-.work-item h1 {
-   flex-direction: row;
-    width: 100%;
-    /* margin: 30px 250px; */
-    height: 200px;
-    margin-top: 40px;
-    font-size: 60px;
-    color: darkslateblue;
-    font-weight: bolder;
-    border-right: darkslateblue;
 
-}
-
-.work-item {
-    flex-direction: column;
-}
 
 
 
