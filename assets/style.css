@@ -140,16 +140,32 @@ span {
     
 }
 
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -20px;
+  }
+  
+  .imagewrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 20px);
+    height: 300px;
+    margin: 10px;
+  }
+  
+  .image {
+    display: block;
+    object-fit: cover;
+    /* width: 100%;
+    height: 100%; set to 'auto' in IE11 to avoid distortions */
+    max-width: 100%;
+    height: auto;
+  }
 
-.section-title-2 {
-    padding: 16px;
-    font-size: 60px;
-    margin-right: 30px;
-    border-right: darkslateblue solid 3px;
-    color: darkslateblue;
-    font-weight: bolder;
-    
-}
+
+ 
 
 
 
