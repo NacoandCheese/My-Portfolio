@@ -12,10 +12,12 @@ body {
 
 section {
     padding: 60px;
+    
 }
 
 .flex-row {
     display: flex;
+    
 }
 /* START NAVIGATION/HEADER STYLING */
 .nav-container {
@@ -105,6 +107,7 @@ span {
     border-right: darkslateblue solid 3px;
     color: darkslateblue;
     font-weight: bolder;
+    display: flex;
     
     
 }
@@ -125,9 +128,28 @@ span {
     align-items: center;
     margin: 0 250px;
     height: 200px;
+    justify-content: space-between;
+}
+
+.work-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 5px;
+    order: 1;
+    
 }
 
 
+.section-title-2 {
+    padding: 16px;
+    font-size: 60px;
+    margin-right: 30px;
+    border-right: darkslateblue solid 3px;
+    color: darkslateblue;
+    font-weight: bolder;
+    
+}
 
 
 
